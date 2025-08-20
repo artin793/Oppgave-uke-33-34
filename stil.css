@@ -1,0 +1,71 @@
+/* Generelle stiler */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header-stiler */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main-stiler */
+main {
+    padding: 1rem;
+}
+
+/* Seksjonsstiler */
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Figur og bilde-stiler */
+figure {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+figure img {
+    max-width: 100%; /* Bildet vil ikke overstige bredden til containeren */
+    width: 200px; /* Gjør bildet mindre */
+    height: auto; /* Bevarer bildeforholdet */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Sentrerer bildet */
+    display: block; /* Sørger for at bildet oppfører seg som en blokk */
+}
+
+figure figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+/* Footer-stiler */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
